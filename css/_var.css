@@ -1,0 +1,49 @@
+/*
+https://www.corpech.com/
+Corpech Firma Scripti
+Corpech Tarafından Yapılmıştır
+*/
+
+/* VARIABLES */
+:root {
+    --background-color-light: #fff !important;
+    --background-color-dark: #000 !important;
+    --main-color-one: #dd0000 !important;
+    --main-color-two: #ff0000 !important;
+    --main-color-hover-one: #fff;
+    --site-hader-light-color: #1f1f1f;
+    --site-hader-dark-color: #fff;
+    --placeholder-color: #888888;
+    --form-background-color: #fff;
+    --form-color: #1f1f1f;
+    --social-media-color: #1f1f1f;
+    --social-media-color-dark: #fff;
+    --card-hover: #1f1f1f;
+    --card-hover-dark: #888888;
+    --info-banner-color: #fff;
+    --head-blog-font-color: #fff;
+    --pagination-color-one: #1f1f1f;
+    --pagination-color-two: #fff;
+    --footer-background-color: #fff;
+
+    --lr-main-background-color-one: #fff;
+    --lr-main-background-color-two: #1f1f1f;
+
+    --color-one: #1f1f1f !important;
+    --color-two: #f8f9fa !important;
+    --color-three: #fff !important;
+    --color-four: #a2a2a2 !important;
+    --color-five: #888888 !important;
+    --color-six: #373737 !important;
+
+    --font-color-one: #fff;
+    --font-color-two: #1f1f1f;
+    
+    --border-rgba-color-one: rgba(143, 143, 143, 0.644) !important;
+    --border-rgba-color-two: rgba(143, 143, 143, 0.700) !important;
+    --border-rgba-color-three: rgb(59, 59, 59) !important;
+
+    --filter-shadow: drop-shadow(2px 2px 2px #1f1f1f) !important;
+    --filter-banner-light: hsla(0,0%,100%,0.5);
+    --filter-banner-dark: hsla(0,0%,100%,0.1);
+}

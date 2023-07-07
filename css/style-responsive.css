@@ -1,0 +1,263 @@
+@import url("_var.css");
+
+@media screen and (max-width: 1200px){
+
+    .blogs img {
+        height: 350px;
+        width: 250px;
+    }
+
+    .blogs-list .media.a .media-body h1,
+    .blogs-list .media .media-body p {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 994px){
+
+    .blogs a {
+        display: none;
+    }
+
+    .blogs-list .media.a .media-body h1,
+    .blogs-list .media .media-body p {
+        width: 450px;
+    }
+
+    .blog-search {
+        width: 225px;
+    }
+
+    .blog-search .bar form input {
+        width: 180px;
+        height: 55px;
+    }
+
+    .blog-search .bar form button {
+        width: 45px;
+        height: 55px;
+    }
+
+    .end-post {
+        width: 225px;
+    }
+
+    .end-comment {
+        width: 225px;
+    }
+
+    .end-post .media.p .image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .end-comment .media.c .image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .end-post .media.p .media-body h5 {
+        font-size: 17px;
+    }
+
+    .end-comment .media.c .media-body {
+        font-size: 14px;
+    }
+
+    .end-comment .media.c .media-body h5 {
+        font-size: 17px;
+    }
+
+    .category .title {
+        width: 225px;
+    }
+
+}
+
+@media screen and (max-width: 880px){
+
+    .content {
+        background-size: 70%;
+    }
+
+    .cards .card a {
+        width: 175px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    a.logo img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .content {
+        background-size: 50%;
+    }
+
+    .content h1 {
+        font-size: 45px;
+    }
+    
+    .content p {
+        font-size: 18px;
+    }
+
+    .cards .card a {
+        width: 150px;
+    }
+
+
+    .blog-search {
+        margin-top: 25px;
+    }
+
+    .blog-search .bar form input {
+        width: 250px;
+    }
+
+    .blog-search .bar form button {
+        width: 55px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+
+    .blogs-list .media.a .media-body h1,
+    .blogs-list .media .media-body p {
+        width: 310px;
+    }
+
+    .content {
+        background-size: 60%;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+    
+    .content p {
+        font-size: 16px;
+    }
+
+    .search .bar .search-form select {
+        width: 100px;
+        height: 55px;
+        font-size: 14px;
+    }
+    
+    .search .bar .search-form input {
+        width: 170px;
+        height: 55px;
+    }
+
+    .search .bar .search-form input::placeholder {
+        font-size: 14px;
+    }
+    
+    .search .bar .search-form button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .social-media a {
+        font-size: 12.5px;
+    }
+
+    .cards .card a {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 440px){
+
+    .contact form .row input {
+        width: 300px;
+        height: 40px;
+    }
+
+    .contact form .row textarea {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 405px){
+
+    .blogs-list .media.a .media-body h1,
+    .blogs-list .media .media-body p {
+        width: 275px;
+    }
+
+    .contact form .row input {
+        width: 250px;
+        height: 40px;
+    }
+
+    .contact form .row textarea {
+        width: 250px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 370px){
+    
+    .blogs-list .media.a .media-body h1,
+    .blogs-list .media .media-body p {
+        width: 245px;
+    }
+
+    .blog-search .bar form input {
+        width: 170px;
+        height: 55px;
+    }
+
+    a.logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .content {
+        background-size: 75%;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+    
+    .content p {
+        font-size: 14px;
+    }
+
+    .search .bar .search-form select {
+        width: 75px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .search .bar .search-form input {
+        width: 150px;
+        height: 45px;
+    }
+
+    .search .bar .search-form input::placeholder {
+        font-size: 14px;
+    }
+    
+    .search .bar .search-form button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .social-media a {
+        padding-right: 12px;
+    }
+
+}

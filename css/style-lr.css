@@ -1,0 +1,134 @@
+/*
+https://www.corpech.com/
+Corpech Firma Scripti
+Corpech Tarafından Yapılmıştır
+*/
+@import url("_var.css");
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.col-lg-4 {
+  background-color: var(--lr-main-background-color-one);
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  margin: 0;
+  display: flex;
+}
+
+.arrow-left {
+  position: absolute;
+}
+
+.arrow-left a i {
+  font-size: 30px;
+  color: var(--color-six);
+  transition: .5s;
+}
+
+.arrow-left a:hover i {
+  font-size: 30px;
+  color: var(--color-one);
+  transition: .5s;
+}
+
+.form-el {
+  width: 450px;
+  margin: auto;
+}
+
+.form-el img.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.form-el img.user {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.form-el h1 {
+  margin-bottom: 40px;
+}
+
+.form-el p {
+  color: var(--color-one);
+}
+
+.form-el a {
+  color: var(--main-color-one);
+  transition: .5s;
+}
+
+.form-el a:hover {
+  color: var(--main-color-two);
+  transition: .5s;
+  text-decoration: none;
+}
+
+.form-el input.form-control {
+  height: 55px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border-rgba-color-one);
+  border-radius: 2px;
+  transition: .5s;
+}
+
+.form-el input:hover {
+  border: 1px solid var(--border-rgba-color-three);
+  transition: .5s;
+}
+
+.form-el input:focus {
+  border: 1px solid var(--border-rgba-color-three);
+}
+
+.form-el input:nth-child(2) {
+  margin-top: 30px;
+}
+
+.form-el .btn-danger {
+  background-color: var(--main-color-one);
+  border: 0;
+  transition: .5s;
+}
+
+.form-el .btn-danger:hover {
+  background-color: var(--main-color-two);
+  transition: .5s;
+}
+
+.form-el .form-check {
+  display: flex;
+  margin-top: 20px;
+}
+
+.form-el .form-check label, .form-el .form-check input {
+  cursor: pointer;
+}
+
+.col-lg-8 .img {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}

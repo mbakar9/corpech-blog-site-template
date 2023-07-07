@@ -1,0 +1,157 @@
+/*
+https://www.corpech.com/
+Corpech Firma Scripti
+Corpech Tarafından Yapılmıştır
+*/
+
+@import url("_var.css");
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: var(--main-color-one);
+}
+
+body.dark {
+    font-family: Oxanium;
+    background-color: var(--background-color-dark);
+    color: var(--font-color-one);
+}
+
+
+body.dark .dark-mode i {
+    color: #fff;
+}
+
+body.dark .dark-mode i:hover {
+    color: #eee;
+}
+
+button i.menu {
+    font-size: 25px;
+    color: var(--font-color-one);
+}
+
+body.dark h1.title {
+    color: var(--font-color-one);
+}
+
+body.dark nav.site-header a {
+    color: var(--site-header-dark-color);
+}
+
+body.dark nav.site-header a:hover {
+    color: var(--main-color-one);
+}
+
+body.dark nav.site-header a.active{
+    color: var(--main-color-one);
+}
+
+body.dark .content {
+    background-color: var(--filter-banner-dark);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+body.dark .social-media a {
+    color: var(--social-media-color-dark);
+}
+
+body.dark .social-media a:hover {
+    color: var(--main-color-one);
+}
+
+body.dark .cards .card:hover {
+    filter: drop-shadow(2px 2px 2px var(--card-hover-dark));
+    transition: .25s;
+}
+
+body.dark .contact form {
+    background-color: #000;
+}
+
+body.dark .footer {
+    padding: 20px;
+    background-color: #000;
+}
+
+body.dark .blogs-list .media.a li a.one {
+    color: #fff;
+}
+
+body.dark .blogs-list .media.a li a.two {
+    color: #fff;
+}
+
+body.dark .blogs-list .media.a li a.two:hover,
+body.dark .blogs-list .media.a li a.three:hover {
+    color: var(--main-color-one);
+}
+
+body.dark .blogs-list .media.a li a.three {
+    color: #fff;
+}
+
+body.dark .blogs-list .media.a .media-body h1,
+body.dark .blogs-list .media .media-body p {
+    color: #fff;
+}
+
+body.dark .blogs-list .media .media-body a h5 {
+    color: #fff;
+}
+
+body.dark .blogs-list .media .media-body a:hover h5 {
+    color: var(--main-color-one);
+    transition: .5s;
+}
+
+body.dark .end-post .media.p .media-body a h5 {
+    color: #fff;
+}
+
+body.dark .end-post .media.p .media-body a:hover h5 {
+    color: var(--main-color-one);
+    transition: .5s;
+}
+
+body.dark .end-comment .media.c .media-body h5 {
+    color: #fff;
+}
+
+body.dark .end-comment .media.c .media-body a:hover h5 {
+    color: var(--main-color-one);
+    transition: .5s;
+}
+
+body.dark .category a {
+    color: #fff;
+}
+
+body.dark .category a:hover {
+    color: var(--main-color-one);
+    transition: .5s;
+}
+
+body.dark .row span.text-muted {
+    color: #fff;
+}
+
+body.dark .list-group-item {
+    background-color: #1f1f1f;
+}
+
+body.dark .list-group-item p {
+    color: #fff;
+}
+
+body.dark .col-lg-4 {
+    background-color: #000;
+}
+
+body.dark .row hr {
+    background-color: red;
+}
